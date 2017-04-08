@@ -1,0 +1,20 @@
+{
+    "name": "taylornetwork/model-slugger",
+    "description": "Automatically add slugs to eloquent models",
+    "require": {
+        "php": ">=5.4.0",
+        "laravel/framework": "5.4.*",
+        "cocur/slugify": "^2.3"
+    },
+    "authors": [
+        {
+            "name": "Sam Taylor",
+            "email": "sam@taylornetwork.ca"
+        }
+    ],
+    "autoload": {
+    	"psr-4": {
+    		"TaylorNetwork\\ModelSlugger\\": "src/"
+    	}
+    }
+}
